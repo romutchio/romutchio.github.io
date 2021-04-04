@@ -13,7 +13,7 @@ window.onload = function() {
     }, 700 );
     
     var subline = document.getElementsByClassName('subline')[0];
-    var age = calculateAge(2000, 3, 10);
+    var age = calculateAge(2000, 2, 10);
     var age = `🧨 ${age} ${plural(age)}`
     subline.insertAdjacentHTML('afterbegin', age)
 };
