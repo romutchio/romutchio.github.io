@@ -14,7 +14,7 @@ window.onload = function() {
     
     var subline = document.getElementsByClassName('subline')[0];
     var age = calculateAge(2000, 2, 10);
-    var age = `🧨 ${age} ${plural(age)}`
+    var age = `🧨 ${age} y.o.`
     subline.insertAdjacentHTML('afterbegin', age)
 };
 
